@@ -1,0 +1,31 @@
+# Виртуальное окружение Python
+.venv/
+venv/
+ENV/
+env/
+
+# Байткод и кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Настройки и кэш VS Code / редакторов
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Локальные пользовательские данные и конфиги (чтобы не утекли API-ключи и пути)
+settings.json
+games.json
+*.log
+
+# Временные файлы и сборка
+build/
+dist/
+*.spec
+downloads/
+temp/
